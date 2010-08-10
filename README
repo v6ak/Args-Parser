@@ -1,0 +1,10 @@
+Args Parser by Vít Šesták
+
+License: New BSD License
+
+An commandline arguments parser.
+Features:
+* extensible: You can write your own option parser
+* strict: If you write invallid name of the option or use it as invalid type, it causes compilation error. This is achieved by generics.
+* unused option warning: If you have enabled unused variable warning, you will be probably warned if you have an unused option.
+* easy to use
